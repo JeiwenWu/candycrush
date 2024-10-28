@@ -1,52 +1,48 @@
-# Prerequisites
-*.d
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
 
-# Object files
+# Ignore build files
+build/
+bin/
+obj/
+
+# Ignore dependencies and package management
+node_modules/
+vendor/
+*.log
+*.lock
+*.bak
+*.tmp
+
+# Ignore compiled files
+*.exe
+*.dll
+*.so
+*.dylib
 *.o
-*.ko
-*.obj
-*.elf
+*.a
+*.lib
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
+# Ignore C++ generated files
+*.out
 *.gch
 *.pch
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Ignore IDE-specific files (adjust based on the IDE you're using)
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Ignore Unity-generated files (if applicable)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+AssetBundles/
